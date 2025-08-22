@@ -169,7 +169,7 @@ export const AllProjects = () => {
 
 
                                 {/* Links */}
-                                <div className="flex space-x-4">
+                                {/* <div className="flex space-x-4">
                                     {project.demoUrl && (
                                         <a
                                             href={project.demoUrl}
@@ -190,14 +190,14 @@ export const AllProjects = () => {
                                             <Github size={18} />
                                         </a>
                                     )}
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     ))}
                 </div>
 
 
-                <div className="text-center mt-12">
+                {/* <div className="text-center mt-12">
                     <a
                         className="cosmic-button w-fit flex items-center mx-auto gap-2"
                         target="_blank"
@@ -205,7 +205,7 @@ export const AllProjects = () => {
                     >
                         Check My Github <ArrowRight size={16} />
                     </a>
-                </div>
+                </div> */}
             </div>
         </section>
     );
