@@ -17,7 +17,7 @@ const projects = [
         id: 2,
         title: 'Aspirational Blocks Programme',
         description: 'The Ministry of Health and Family Welfare is committed to improving healthcare services in most poor performing underdeveloped blocks across the country as part of the Aspirational Blocks Programme.',
-        tags: ['React', 'Node.j', 'PostgreSQL'],
+        tags: ['React', 'Node.js', 'PostgreSQL'],
         client: 'Ministry of Health & Family Welfare Govt. of India',
         role: 'Lead Developer',
         demoUrl: 'https://abphealth.mohfw.gov.in/',

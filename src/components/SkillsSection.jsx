@@ -17,7 +17,7 @@ const skills = [
   { name: "Express", level: 65, category: "backend" },
   { name: "MongoDB", level: 25, category: "backend" },
   { name: "PostgreSQL", level: 75, category: "backend" },
-  { name: "GraphQL", level: 0, category: "backend" },
+  // { name: "GraphQL", level: 0, category: "backend" },
 
   // Tools
   { name: "Git/GitHub", level: 25, category: "tools" },
