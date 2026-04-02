@@ -14,7 +14,7 @@ const skills = [
   { name: "PHP", level: 90, category: "backend" },
   { name: "MySQL", level: 90, category: "backend" },
   { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express", level: 65, category: "backend" },
+  { name: "Express.js", level: 65, category: "backend" },
   { name: "MongoDB", level: 25, category: "backend" },
   { name: "PostgreSQL", level: 75, category: "backend" },
   // { name: "GraphQL", level: 0, category: "backend" },
@@ -58,7 +58,7 @@ export const SkillsSection = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredSkills.map((skill, key) => (
             <div
               key={key}
@@ -81,7 +81,32 @@ export const SkillsSection = () => {
               </div>
             </div>
           ))}
+        </div> */}
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {filteredSkills.map((skill, key) => (
+            <div
+              key={key}
+              className="group p-6 rounded-2xl bg-card border border-border 
+           hover:bg-gradient-to-br hover:from-primary/10 hover:to-transparent
+           transition-all duration-300"
+            >
+              {/* Skill Name */}
+              <h3 className="font-semibold text-lg text-foreground group-hover:text-primary transition-colors duration-300">
+                {skill.name}
+              </h3>
+
+              {/* Category */}
+              <p className="text-sm text-muted-foreground mt-2">
+                {skill.category.charAt(0).toUpperCase() + skill.category.slice(1)}
+              </p>
+
+              {/* Decorative line */}
+              {/* <div className="mt-4 h-1 w-10 bg-primary rounded-full   group-hover:w-16 transition-all duration-300" /> */}
+            </div>
+          ))}
         </div>
+
       </div>
     </section>
   );

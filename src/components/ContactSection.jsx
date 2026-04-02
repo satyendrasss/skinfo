@@ -56,14 +56,14 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Email</h4>
                   <a
-                    href="mailto:satyendrasinghbca777@gmail.com"
+                    href="mailto:satyendra0798@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    satyendrasinghbca777@gmail.com
+                    satyendra0798@gmail.com
                   </a>
                 </div>
               </div>
-              <div className="flex items-start space-x-4">
+              {/* <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />{" "}
                 </div>
@@ -76,7 +76,7 @@ export const ContactSection = () => {
                     +1 (123) 456-7890
                   </a>
                 </div>
-              </div>
+              </div> */}
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />{" "}
@@ -90,7 +90,7 @@ export const ContactSection = () => {
               </div>
             </div>
 
-            <div className="pt-8">
+            {/* <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
                 <a href="#" target="_blank">
@@ -106,7 +106,7 @@ export const ContactSection = () => {
                   <Twitch />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div
@@ -169,7 +169,7 @@ export const ContactSection = () => {
                 />
               </div>
 
-              <button
+              {/* <button
                 type="submit"
                 disabled={isSubmitting}
                 className={cn(
@@ -178,7 +178,7 @@ export const ContactSection = () => {
               >
                 {isSubmitting ? "Sending..." : "Send Message"}
                 <Send size={16} />
-              </button>
+              </button> */}
             </form>
           </div>
         </div>

@@ -90,7 +90,7 @@ const projects = [
         tags: ['PHP', 'MySQL'],
         client: 'Jubilant',
         role: 'Coder',
-        demoUrl: 'http://jubilant.nutrisoft.in',
+        demoUrl: '#',
         githubUrl: '#'
     },
     {
@@ -100,7 +100,7 @@ const projects = [
         tags: ['PHP', 'MySQL'],
         client: 'Population Council',
         role: 'Coder',
-        demoUrl: 'http://jubilant.nutrisoft.in',
+        demoUrl: '#',
         githubUrl: '#'
     },
     {
@@ -169,7 +169,7 @@ export const AllProjects = () => {
 
 
                                 {/* Links */}
-                                {/* <div className="flex space-x-4">
+                                <div className="flex space-x-4">
                                     {project.demoUrl && (
                                         <a
                                             href={project.demoUrl}
@@ -180,7 +180,7 @@ export const AllProjects = () => {
                                             <ExternalLink size={18} />
                                         </a>
                                     )}
-                                    {project.githubUrl && (
+                                    {/* {project.githubUrl && (
                                         <a
                                             href={project.githubUrl}
                                             target="_blank"
@@ -189,8 +189,8 @@ export const AllProjects = () => {
                                         >
                                             <Github size={18} />
                                         </a>
-                                    )}
-                                </div> */}
+                                    )} */}
+                                </div>
                             </div>
                         </div>
                     ))}

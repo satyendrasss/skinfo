@@ -11,16 +11,7 @@ const projects = [
     demoUrl: "https://watersanitationlearning.gov.in",
     githubUrl: "#",
   },
-  // {
-  //   id: 2,
-  //   title: "MQUAD Survey Tool",
-  //   description: "MQUAD is a comprehensive data collection and analytics platform that enables users to map, measure, monitor, and manage information. It provides dynamic visualizations and interactive analytics to support data-driven decision-making.",
-  //   image: "/projects/abphealth.png",
-  //   tags: ["React", "Node.js", "PostgreSQL"],
-  //   demoUrl: "https://abphealth.mohfw.gov.in",
-  //   githubUrl: "#",
-  // },
-
+  
   {
     id: 2,
     title: "Aspirational Blocks Programme",
@@ -38,6 +29,33 @@ const projects = [
     image: "/projects/Peace-Travels.png",
     tags: ["Laravel", "MySQL", "PayPal"],
     demoUrl: "http://peacetravelsindia.com",
+    githubUrl: "#",
+  },
+  {
+    id: 4,
+    title: "MQUAD Survey Tool",
+    description: "MQUAD is a comprehensive data collection and analytics platform that enables users to map, measure, monitor, and manage information. It provides dynamic visualizations and interactive analytics to support data-driven decision-making.",
+    image: "/projects/mquad-home.png",
+    tags: [ "PHP", "MySQL"],
+    demoUrl: "https://mquad.org",
+    githubUrl: "#",
+  },
+  {
+    id: 5,
+    title: "GOBARdhan Portal & Dashboard",
+    description: "GOBARdhan (Galvanizing Organic Bio-Agro Resources Dhan) is a Government of India initiative that promotes converting organic waste such as cattle dung and agri-residue into biogas, CBG, and Bio-CNG. Coordinated by the Department of Drinking Water and Sanitation, Ministry of Jal Shakti, it follows a whole-of-government approach.",
+    image: "/projects/gobardhan-portal.png",
+    tags: ["CodeIgniter", "MySQL"],
+    demoUrl: "https://gobardhan.sbm.gov.in",
+    githubUrl: "#",
+  },
+  {
+    id: 6,
+    title: "NPCCHH- an extension of IHIP Module",
+    description: "Integrated Health Information Platform for National Program on Climate Change and Human Health.  This project is being developed for the National Centre for Disease Control (NCDC), under the Ministry of Health and Family Welfare, Government of India.  An Analysis of Air pollution related Illness & Heat related illness.",
+    image: "/projects/npcchh.png",
+    tags: ["CodeIgniter", "MySQL"],
+    demoUrl: "https://ihip.mohfw.gov.in/npcchh",
     githubUrl: "#",
   },
 ];
@@ -93,13 +111,13 @@ export const ProjectsSection = () => {
                       >
                         <ExternalLink size={20} />
                       </a>
-                      <a
+                      {/* <a
                         href={project.githubUrl}
                         target="_blank"
                         className="text-foreground/80 hover:text-primary transition-colors duration-300"
                       >
                         <Github size={20} />
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
