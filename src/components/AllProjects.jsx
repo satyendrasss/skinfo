@@ -100,7 +100,7 @@ const projects = [
         tags: ['PHP', 'MySQL'],
         client: 'Population Council',
         role: 'Coder',
-        demoUrl: '#',
+        demoUrl: 'http://117.239.163.149',
         githubUrl: '#'
     },
     {
